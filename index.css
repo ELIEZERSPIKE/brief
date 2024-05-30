@@ -409,8 +409,21 @@ font-weight: 500;
         --big-font:3.5rem;
         --h2-font:2rem;
     }
+
+
+
+   
+
+
+
 }
 @media(max-width:1140px){
+
+    .logo{
+        font-size: var(--main-color);
+        font-weight: 100;
+        text-align: left;
+    }
     section{
         padding: 50px 8%;
 
@@ -419,6 +432,13 @@ font-weight: 500;
         display: initial;
         color: var(--text-color);
 
+    }
+
+    .home-text h1{
+        font-size: var(--p-font);
+        color: var(--main-color);
+    
+    
     }
     header .navbar{
         position: absolute;
@@ -445,8 +465,56 @@ font-weight: 500;
         margin-bottom: 10px;
 
     }
+    .home-img img{
+        max-width: 90%;
+        width: 1000px;
+        height: auto;
+    
+    }
+
+
+    .about-text  h1 {
+        font-size: 20px;
+        color: var(--main-color);
+    }
+    .about-text span{
+        color: var(--main-color);
+        font-weight: 20px;
+        align-items: center;
+    }
+    .about-text h2{
+        font-size: var(--p-font);
+    
+    }
+    .about-text p{
+        margin: 0.4rem 0 1.4rem;
+        line-height: 1;
+    }
+    .about-img img{
+        max-width: 100%;
+        width: 480px;
+        height: auto;
+        margin-right: 200px;
+    }
+    .btn{
+        display: inline-block;
+        margin-right:30px ;
+        background: var(--main-color);
+        color: #fff;
+        border-radius: 0.5s;
+
+    }
+
+    .footer{
+       margin-top: 40px;
+    
+    }
+        
+
+
 
 
 }
 
+   
 
