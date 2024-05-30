@@ -310,6 +310,7 @@ font-weight: 500;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 500px;
 
 }
 .formz{
@@ -338,7 +339,7 @@ font-weight: 500;
 .middle{
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
@@ -351,6 +352,7 @@ font-weight: 500;
     padding: 50px 40px;
     display: flex;
     flex-direction: column;
+    
 
 }
 .formz h2{
@@ -365,7 +367,7 @@ font-weight: 500;
 }
 .inputbox input{
     width: 100%;
-    padding: 20px 10px 10px;
+    padding: 18px 10px 10px;
     border-color: var(--bg-color);
     border-top:none ;
     border-left:none ;
